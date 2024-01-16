@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#gameContainer {
+    text-align: center;
+    background-color: #cacfafae;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/image/snake.png');
+    background-repeat: no-repeat;
+    background-position:50% 95%;
+}
+
+#gameBoard {
+    width: 500px;
+    height: 500px;
+    border: 3px solid ;
+}
+
+#scoreText {
+    font-family: fantasy;
+    font-size: 100px;
+    color: rgb(54, 201, 64);
+}
+
+#resetBtn {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(200, 227, 228);
+    border-radius: 8px;
+    font-size: 20px;
+}
